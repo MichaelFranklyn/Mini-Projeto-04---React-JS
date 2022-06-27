@@ -1,0 +1,17 @@
+.main {
+    flex-direction: column;
+    justify-content: normal;
+}
+
+.container_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    width: 1096px;
+    height: 496px;
+
+    margin-top: 50px;
+}

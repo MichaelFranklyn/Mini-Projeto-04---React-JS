@@ -1,0 +1,15 @@
+header {
+    width: 100vw;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.voltar {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    cursor: pointer;
+}

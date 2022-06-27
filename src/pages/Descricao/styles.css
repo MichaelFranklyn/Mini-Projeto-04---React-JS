@@ -1,0 +1,74 @@
+.descricao {
+    flex-direction: column;
+    justify-content: normal;
+    color: #FFFFFF;
+}
+
+.descricao_teacher {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #DA0175;
+    border-radius: 16px;
+    width: 467.18px;
+    height: 562px;
+    padding: 24px 0 52px;
+    margin-top: 40px;
+
+}
+
+.descricao_teacher img {
+    border-radius: 50%;
+    width: 187px;
+    height: 187px;
+    border: 6px solid #FCFCFC;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 108px;
+    width: 336.12px;
+    padding-bottom: 49px;
+    border-bottom: 1px solid #BBBBBB;
+    margin-top: 24px;
+}
+
+.info h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.info span {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    margin-top: 16px;
+}
+
+.bio span {
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.bio p {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+    overflow-y: auto;
+    max-height: 90px;
+    padding: 5px;
+}
